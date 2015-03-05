@@ -1,5 +1,4 @@
 ---
-layout: student
 name: Colby DeHart
 site: http://colbydehart.com
 ---
