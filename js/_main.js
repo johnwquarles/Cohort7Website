@@ -8,7 +8,9 @@ $(document).ready(function(){
     // $('#masthead, #page-wrapper').toggleClass('slide');
     e.preventDefault();
   });
+
 });
+
 
 // FitVids
 $(document).ready(function(){

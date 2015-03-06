@@ -1,7 +1,7 @@
 ---
-name: 'Colby Dehart'
+name: 'Brandon Valentine'
 image: http://www.vincegolangco.com/wp-content/uploads/2010/12/batman-for-facebook.jpg
-website: 'http://colbydehart.com'
+website: 'foundry376.com'
 twitter: '@bengotow'
 employer: 'Foundry376'
 job-title: 'Founder & Principal'

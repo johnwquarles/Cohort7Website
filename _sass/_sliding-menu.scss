@@ -132,12 +132,12 @@
       position: absolute;
       left: 0;
       margin-bottom: 0;
-      width: 50px;
+      width: 20px;
       border: 2px solid $white;
       margin-bottom: ($gutter / 2);
       opacity: 0.6;
       @include media($small) {
-        width: 150px;
+        width: 100px;
       }
     }
     a:hover .teaser {
@@ -145,7 +145,7 @@
     }
     .title {
       display: block;
-      margin-left: 60px;
+      margin-left: 30px;
       font-family: $alt-font;
       @include font-size(24,no);
       font-weight: 700;

@@ -1,16 +1,16 @@
 # Site navigation links
 
 - title: About Cohort 7
-  url:
+  url: "#nss7"
   excerpt:
-  image:
+  image: nsslogo.jpg #about 430 by 430 pixels
 
 - title: What We Specialize
-  url:
+  url: "#specialize"
   excerpt:
-  image:
+  image: nsslogo.jpg
 
-- title: Students
-  url:
+- title: Meet Us
+  url: "#meetus"
   excerpt:
-  image:
+  image: nsslogo.jpg

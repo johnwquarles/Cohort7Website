@@ -3,16 +3,55 @@ layout: default
 ---
 
 <div class="home">
-  
 
-  <h1 class="page-heading">About Cohort 7</h1>
-  <h1 class="page-heading">What We Specialize</h1>
-  <h1 class="page-heading">Students</h1>
+  <div class="splash">
+    <img
+      mouseover-src="https://unsplash.imgix.net/reserve/vof4H8A1S02iWcK6mSAd_sarahmachtsachen.com_TheBeach.jpg?q=75&fm=jpg&s=992e28f0751267625026c5a18b66953c"
+      src="https://unsplash.imgix.net/uploads/14134890947503c6effdc/72adf455?q=75&fm=jpg&s=b2419796e3006cb1da9755266b0aca89">
+  </div>
+  <a id="nss7"></a>
+  <h1 class="title"> We are NSS Cohort 7 </h1>
+
+<div class="separator"></div>
+<div class="about">
+  <span> Six months of intensive training coding +40 hours/week </span>
+  <span> Countless gallons of coffee and tea </span>
+  <span> Dozens of apps and numerous lines of code </span>
+  <h3> We are Cohort 7 and we are ready for your coding challenges! </h3>
+</div>
+
+<div class="separator"></div>
+<div class="specialization">
+  <a id="specialize"></a>
+  <h1>Our Specialization</h1>
+  <p>
+The curriculum teaches the skills and technologies required to become a junior full-stack software developer, including:
+  </p>
+  <img src='images/html5logo.png'>
+  <img src='images/CSS3logo.png'>
+  <img src='images/javascriptlogo.png'>
+  <img src='images/jquerylogo.png'>
+  <img src='images/angularlogo.png'>
+  <img src='images/csharplogo.png'>
+  <img src='images/dotnetlogo.png'>
+  <img src='images/sqllogo.png'>
+  <img src='images/visualstudiologo.svg'>
+  <img src='images/githublogo.png'>
+</div>
 
 
-  <!--Example of listing students -->
-  {%for student in site.students %}
-    <a href="{{student.site}}">{{student.name}}</a>
-  {% endfor %}
+    <!--Example of listing students -->
+    <a id="meetus"></a>
+  <h1 class="page-heading">Meet Us</h1>
+  <ul>
+    {%for student in site.students %}
+    <li class="student-list">
+      <div class="profile-cell">
+        <img src={{student.image}}>
+        <a href="{{student.website}}">{{student.name}}</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 
 </div>

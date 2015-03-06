@@ -1,0 +1,79 @@
+.home {
+  h1 {
+    text-align: center;
+  }
+
+  .separator {
+    border: 3px solid black;
+  }
+  .title {
+    margin-top: -75px;
+    color: white;
+    margin-bottom: 100px;
+  }
+
+  .student-list {
+    list-style: none;
+    display: inline-block;
+
+    em {
+      color: rgb(0,0,0);
+      display: block;
+
+    }
+  }
+
+  .about, .specialization {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .specialization {
+    img {
+      height: 100px;
+      display: inline-block;
+      padding: 5px;
+    }
+  }
+
+  .about {
+    span, h3 {
+      display: block;
+      font-size: 2em;
+      text-align: center;
+    }
+  }
+  .profile-cell {
+    display: inline-block;
+    width: 200px;
+    margin: 5px auto;
+    height: 300px;
+    background-size: cover;
+    overflow: hidden;
+    background: gray;
+    p {
+      display: none;
+      }
+    text-align: center;
+      h6, h3 {
+        display: block;
+        margin-bottom: 5px;
+      }
+      img {
+        width: 90%;
+        margin: 5%;
+      }
+      #more {
+        display: block;
+        float: right;
+      }
+  }
+  .dropdown {
+    display: none;
+    img, a, h4{
+      display: none;
+    }
+  }
+  
+
+}
