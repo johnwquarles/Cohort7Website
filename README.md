@@ -5,4 +5,5 @@
 
 ##Setup
 - git clone the repo
-- `bundle install`
+- `bundle install` (install bundler with "gem install bundler" if you don't have it already)
+
