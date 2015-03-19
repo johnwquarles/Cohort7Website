@@ -3,5 +3,5 @@ name: Jacyln Pasquale
 site: "https://jaclynpasquale.com/"
 image: "/images/JacylnPasqualeBW.jpg"
 colorimg: "/images/JacylnPasqualeColor.jpg"
-bio: Jaclyn is a graphic designer turned developer. 
+bio: I am a graphic designer turned developer. I love learning, design, code, coffee and cats. I want to be an awesome front end developer.
 ---
