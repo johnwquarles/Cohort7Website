@@ -1,7 +1,7 @@
 ---
 name: Stephania Iyob
-site: "http://www.stephaniaiyob.com"
+site: "http://stephaniaiyob.com"
 image: "images/StephaniaIyobBW.jpg"
 colorimg: "images/StephaniaIyobColor.jpg"
-bio: A junior Full-Stack developer who relentessly works to show the unfamothable beauty of nature.
+bio: A junior Full-Stack developer who enjoys the unfathomable beauty of nature.
 ---
