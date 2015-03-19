@@ -6,7 +6,7 @@ logo: bio-photo.jpg
 teaser: # 400x250 px default teaser image used in image archive grid
 locale:
 url:
-
+  basurl: "/Cohort7Website"
 collections:
 - students
 
