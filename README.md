@@ -1,6 +1,6 @@
 # Cohort7Website
 
-Site is currently hosted at [nss.eizabrocksoftware.com](nss.elizabrocksoftware.com)
+Site is currently hosted at [nss.eizabrocksoftware.com](http://nss.elizabrocksoftware.com)
 
 [![Join the chat at https://gitter.im/NashvilleSoftwareSchool/Cohort7Website](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NashvilleSoftwareSchool/Cohort7Website?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
