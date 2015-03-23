@@ -1,5 +1,5 @@
 ---
-name: Jacyln Pasquale
+name: Jaclyn Pasquale
 site: "https://jaclynpasquale.com/"
 image: "/images/JacylnPasqualeBW.jpg"
 colorimg: "/images/JacylnPasqualeColor.jpg"
