@@ -138,3 +138,37 @@ h1.title {
 body{
   background-image: url("/images/furley_bg_@2X.png") !important;
 }
+
+.inner-wrap {
+  max-width: 900px;
+}
+
+.menu-item{
+  float: right !important;
+}
+
+.site-title{
+  color: #036067 !important;
+}
+
+@media (max-width: 700px) {
+  h1.title {
+    color: #036067;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-title {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .menu .top-menu .nav-link {
+    display: inline-block !important;
+    float: left;
+    visibility: visible;
+  }
+}
