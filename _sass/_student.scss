@@ -56,7 +56,7 @@
     margin: 10px 3px ;
     height: 575px;
     background-size: cover;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
     background: #e7e2df ;
 
@@ -93,7 +93,7 @@ h6.student-name{
     text-align: center;
   }
 h6.student-name:hover {
-  color: #005480;
+  color: #357f85;
 }
 
   .home .profile-cell {
@@ -104,29 +104,13 @@ h6.student-name:hover {
     border: white 3px solid;
   }
 
-  // .crop{
-  //   clip: rect(800px,0px,0px,0px);
-  //
-  //
-  // }
- //  .crop {
- //  //   position: absolute;
- //  //  left: 50%;
- //  //  top: 50%;
- //  //  height: auto;
- //  //  width: 100%;
- //   -webkit-transform: translate(-50%,-50%) scale(1.5);
- //   -ms-transform: translate(-50%,-50%) scale(1.5);
- //   translate(0%, -13%) scale(1);
- //
- // }
 
 nav ul li a:hover{
   color: #82B222;
 }
 
 h1 {
-  color: #036067 !important;
+  color: #357f85 !important;
 }
 h1.title {
   color: white !important;
@@ -148,12 +132,12 @@ body{
 }
 
 .site-title{
-  color: #036067 !important;
+  color: #357f85 !important;
 }
 
 @media (max-width: 700px) {
   h1.title {
-    color: #036067;
+    color: #357f85;
     font-size: 35px;
   }
 }
