@@ -84,7 +84,7 @@
 /* Top menu navigation */
 
 .top-menu {
-	display: none;
+	//display: none;
 	position: relative;
 	@include media($medium) {
 		@include span-columns(12);
@@ -98,7 +98,7 @@
 	}
 	.home,
 	.sub-menu-item {
-		display: none;
+		//display: none;
 	}
 	li {
 		a {
@@ -348,4 +348,7 @@
 			text-decoration: none;
 		}
 	}
+}
+.copyright {
+	margin-bottom: 0px !important;
 }

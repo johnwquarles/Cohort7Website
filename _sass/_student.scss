@@ -24,7 +24,7 @@
   }
 
   .about, .specialization {
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 30px;
   }
 
@@ -58,7 +58,7 @@
     background-size: cover;
     overflow-y: hidden;
     overflow-x: hidden;
-    background: #e7e2df ;
+    background: #E7E3C5 ;
 
     text-align: left;
       span, h6, h3 {
@@ -137,8 +137,14 @@ body{
 
 @media (max-width: 700px) {
   h1.title {
-    color: #357f85;
-    font-size: 35px;
+
+    font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  h1.title {
+    margin-top: -39px !important;
+    font-size: 30px;
   }
 }
 
@@ -148,11 +154,19 @@ body{
   }
 }
 
-@media (max-width: 700px) {
+// @media (max-width: 700px) {
+//
+//   .menu .top-menu .nav-link {
+//     display: inline-block !important;
+//     float: left;
+//     visibility: visible;
+//   }
+// }
 
-  .menu .top-menu .nav-link {
-    display: inline-block !important;
+@media (max-width: 450px) {
+  .menu-item li a {
+    font-size: 14px;
     float: left;
-    visibility: visible;
+
   }
 }
