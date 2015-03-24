@@ -5,17 +5,15 @@ layout: default
 <div class="home">
 
   <div class="splash">
-    <img
-      mouseover-src="images/GroupColorFun.jpg"
-      src="images/GroupBWSerious.jpg">
+    <img src="images/GroupBWSerious.jpg" class="group-pic " mouseover-src="/images/GroupColorFun.jpg" >
   </div>
   <a id="nss7"></a>
   <h1 class="title"> We are NSS Cohort 7 </h1>
 
 
 <div class="about">
-  <span> Six months of intensive training coding +40 hours/week </span>
-  <span> Countless gallons of coffee and tea </span>
+  <span> Six months of intensive training and coding +40 hours/week </span>
+  <span> Countless cups of coffee and tea </span>
   <span> Dozens of apps and numerous lines of code </span>
   <h3> We are Cohort 7 and we are ready for your coding challenges! </h3>
 </div>
@@ -40,15 +38,22 @@ The curriculum teaches the skills and technologies required to become a junior f
 
 
     <!--Example of listing students -->
-<div class="meetus">
+<div id="meetus" class="meetus">
   <h1 class="page-heading">Meet Us</h1>
   <p> We are much more than the technologies we know. Visit our personal site. Invite us for a chat. We would love to get to know you. </p>
   <ul>
     {% for student in site.students %}
     <li class="student-list">
       <div class="profile-cell">
-        <a class="studentlink"href={{student.site}}><img mouseover-src={{student.colorimg}} src={{student.image}}>{{student.name}}</a><br>
-        <span>{{student.bio}}</span>
+        <a class="studentlink"href={{student.site}} >
+          <div class="crop">
+            <img class="student-pic" mouseover-src={{student.colorimg}} src={{student.image}}>
+
+          </div>
+
+
+          <h6 class="student-name">{{student.name}}</h6></a>
+        <span class="student-bio">{{student.bio}}</span>
       </div>
     </li>
     {% endfor %}
