@@ -1,7 +1,7 @@
 ---
 name: Luke Tucker
-site: "http://luketucker28.github.io/"
+site: "https://github.com/luketucker28"
 image: "/images/LukeTuckerBW.jpg"
 colorimg: "/images/LukeTuckerColor.jpg"
-bio: Luke is a graduate from the Nashville Software School.
+bio: I am an aspiring software developer attending the Nashville Software School. I cannot wait to graduate and utilize my skills in the workforce. 
 ---
