@@ -3,14 +3,14 @@
 - title: About Cohort 7
   url: "Cohort7Website#nss7"
   excerpt:
-  image: Cohort7Website/NSSlogo.jpg #about 430 by 430 pixels
+  image: NSSlogo.jpg #about 430 by 430 pixels
 
 - title: Our Specialties
   url: "Cohort7Website#specialize"
   excerpt:
-  image: Cohort7Website/NSSlogo.jpg
+  image: NSSlogo.jpg
 
 - title: Meet Us
   url: "Cohort7Website#meetus"
   excerpt:
-  image: Cohort7Website/NSSlogo.jpg
+  image: NSSlogo.jpg
