@@ -10,7 +10,7 @@
     {% endif %}
     {% include open-graph.html %}
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
     <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -40,8 +40,8 @@
       {% include footer.html %}
     </div>
 
-    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="{{ site.url }}/js/main.js"></script>
+    <script src="{{ site.baseurl }}/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="{{ site.baseurl }}/js/main.js"></script>
 
   </body>
 
