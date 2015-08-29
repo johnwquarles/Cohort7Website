@@ -5,8 +5,8 @@ description: We are NSS7.
 logo: bio-photo.jpg
 teaser: # 400x250 px default teaser image used in image archive grid
 locale:
-url:
-
+baseurl: "/Cohort7Website"
+url: "http://johnwquarles.github.io"
 collections:
 - students
 
