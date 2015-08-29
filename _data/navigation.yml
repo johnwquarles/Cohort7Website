@@ -3,14 +3,14 @@
 - title: About Cohort 7
   url: "#nss7"
   excerpt:
-  image: /NSSlogo.jpg #about 430 by 430 pixels
+  image: "{{ site.baseurl }}/NSSlogo.jpg" #about 430 by 430 pixels
 
 - title: Our Specialties
   url: "#specialize"
   excerpt:
-  image: /NSSlogo.jpg
+  image: "{{ site.baseurl }}/NSSlogo.jpg"
 
 - title: Meet Us
   url: "#meetus"
   excerpt:
-  image: /NSSlogo.jpg
+  image: "{{ site.baseurl }}/NSSlogo.jpg"
