@@ -1,16 +1,16 @@
 # Site navigation links
 
 - title: About Cohort 7
-  url: "{{ site.baseurl }}#nss7"
+  url: "#nss7"
   excerpt:
   image: NSSlogo.jpg #about 430 by 430 pixels
 
 - title: Our Specialties
-  url: "{{ site.baseurl }}#specialize"
+  url: "#specialize"
   excerpt:
   image: NSSlogo.jpg
 
 - title: Meet Us
-  url: "{{ site.baseurl }}#meetus"
+  url: "#meetus"
   excerpt:
   image: NSSlogo.jpg
